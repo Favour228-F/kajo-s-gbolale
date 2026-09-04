@@ -1,12 +1,11 @@
-// import Daddy from "./Daddy";
+import Daddy from "./Daddy";
 // import CardList from "./CardList";
-import Sovasab from "./Sovasab";
+// import Sovasab from "./Sovasab";
 function App() {
   return (
     <div>
       {/* <CardList /> */}
-      {/* <Daddy /> */}
-      <Sovasab />
+      <Daddy />
     </div>
   );
   // <Daddy />;
