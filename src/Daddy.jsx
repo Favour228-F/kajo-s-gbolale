@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: "Commercial Office Complex",
-    category: "Building Construction",g
+    category: "Building Construction",
     image: "/images/daddy 52.jpeg",
   },
   {
