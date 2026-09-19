@@ -43,38 +43,32 @@ const projects = [
   {
     title: "Modern Highway Development",
     category: "Road Construction",
-    image:
-      "https://images.unsplash.com/photo-1545459720-aac8509eb02c?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/daddy's 1.jpeg",
   },
   {
     title: "Commercial Office Complex",
-    category: "Building Construction",
-    image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80",
+    category: "Building Construction",g
+    image: "/images/daddy 52.jpeg",
   },
   {
     title: "Steel Bridge Project",
     category: "Bridge Engineering",
-    image:
-      "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/daddy 47.jpeg",
   },
   {
     title: "Urban Infrastructure",
     category: "Infrastructure",
-    image:
-      "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/daddy 57.jpeg",
   },
   {
     title: "Residential Estate",
     category: "Construction",
-    image:
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/dfaddy 36.jpeg",
   },
   {
     title: "Water Infrastructure",
     category: "Water Engineering",
-    image:
-      "https://images.unsplash.com/photo-1538300342682-cf57afb97285?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/daddy 31.jpeg",
   },
 ];
 
@@ -189,15 +183,13 @@ function App() {
         className="relative flex min-h-screen items-center overflow-hidden bg-slate-950"
       >
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-40"
+          className="absolute inset-0 bg-cover bg-center opacity-40 h-[100vh]"
           style={{
-            backgroundImage:
-              "url(https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2000&q=80)",
+            backgroundImage: "/images/hhh4.jpeg",
+            backgroundRepeat: "no-repeat",
           }}
         />
-
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-950/30" />
-
         <div className="relative mx-auto w-full max-w-7xl px-6 pt-24">
           <div className="max-w-3xl">
             <span className="mb-5 inline-block rounded-full border border-orange-500/40 bg-orange-500/10 px-4 py-2 text-sm font-semibold text-orange-400">
@@ -261,7 +253,7 @@ function App() {
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-2">
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80"
+              src="/images/daddy 81.jpeg"
               alt="Construction workers"
               className="h-[500px] w-full rounded-2xl object-cover shadow-2xl"
             />
@@ -282,9 +274,9 @@ function App() {
             </h2>
 
             <p className="mt-6 leading-8 text-gray-600">
-              BuildPro Engineering is a civil engineering and construction
-              company focused on delivering high-quality infrastructure and
-              construction solutions.
+              Kajo's GBOLALEYE Engineering is a civil engineering and
+              construction company focused on delivering high-quality
+              infrastructure and construction solutions.
             </p>
 
             <p className="mt-4 leading-8 text-gray-600">
@@ -419,7 +411,7 @@ function App() {
 
           <div>
             <img
-              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80"
+              src="/images/daddy59.jpeg"
               alt="Engineer working on construction project"
               className="h-[550px] w-full rounded-2xl object-cover"
             />
